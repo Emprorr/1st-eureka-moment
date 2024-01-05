@@ -1,0 +1,47 @@
+body {
+    background-image: url("bb.webp");
+  background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#activity {
+    width: 100%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.check {
+    cursor: pointer;
+}
+  
